@@ -40,6 +40,7 @@
 		71CB30B7177086F00011BF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71CB30B5177086F00011BF53 /* InfoPlist.strings */; };
 		71CB30B9177086F00011BF53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB30B8177086F00011BF53 /* main.m */; };
 		71CB30DA177087BB0011BF53 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CB30D9177087BB0011BF53 /* GHUnitIOS.framework */; };
+		71CB30DE177088F30011BF53 /* MagicalRecordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB30DD177088F30011BF53 /* MagicalRecordTest.m */; };
 		71CB30DF177089C50011BF53 /* ImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CF976017497858008D9D13 /* ImageToDataTransformer.m */; };
 		71CB30E0177089CA0011BF53 /* EditingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CF96C617497086008D9D13 /* EditingTableViewCell.m */; };
 		71CB30E1177089CA0011BF53 /* ImperialPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CF96C817497086008D9D13 /* ImperialPickerController.m */; };
@@ -161,6 +162,7 @@
 		71CB30B8177086F00011BF53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71CB30BA177086F00011BF53 /* RecipiesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipiesTest-Prefix.pch"; sourceTree = "<group>"; };
 		71CB30D9177087BB0011BF53 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = RecipiesTest/GHUnitIOS.framework; sourceTree = "<group>"; };
+		71CB30DD177088F30011BF53 /* MagicalRecordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordTest.m; sourceTree = "<group>"; };
 		71CB311817708D490011BF53 /* MagicalRecord+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Test.h"; sourceTree = "<group>"; };
 		71CB311917708D490011BF53 /* MagicalRecord+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Test.m"; sourceTree = "<group>"; };
 		C7CF965F17496EDC008D9D13 /* Recipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				71CB311717708D390011BF53 /* Helpers */,
+				71CB30DB177088930011BF53 /* Tests */,
 				71CB30B3177086F00011BF53 /* Supporting Files */,
 			);
 			path = RecipiesTest;
@@ -349,6 +352,14 @@
 				71CB30BA177086F00011BF53 /* RecipiesTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71CB30DB177088930011BF53 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71CB30DD177088F30011BF53 /* MagicalRecordTest.m */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		71CB311717708D390011BF53 /* Helpers */ = {
@@ -846,6 +857,7 @@
 				71CB30E8177089CA0011BF53 /* RecipePhotoViewController.m in Sources */,
 				71CB310C177089E90011BF53 /* MagicalRecord+ShorthandSupport.m in Sources */,
 				71CB30FC177089E00011BF53 /* NSManagedObject+MagicalDataImport.m in Sources */,
+				71CB30DE177088F30011BF53 /* MagicalRecordTest.m in Sources */,
 				71CB30E2177089CA0011BF53 /* IngredientDetailViewController.m in Sources */,
 				71CB310B177089E90011BF53 /* MagicalRecord+Setup.m in Sources */,
 				71CB310E17708AEF0011BF53 /* Recipes.xcdatamodeld in Sources */,
