@@ -96,6 +96,7 @@
 		71CB311417708AFF0011BF53 /* TemperatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CF96B917497053008D9D13 /* TemperatureCell.xib */; };
 		71CB311517708AFF0011BF53 /* TemperatureConverter.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CF96BA17497053008D9D13 /* TemperatureConverter.xib */; };
 		71CB311617708AFF0011BF53 /* WeightConverter.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CF96BB17497053008D9D13 /* WeightConverter.xib */; };
+		71CB311A17708D490011BF53 /* MagicalRecord+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB311917708D490011BF53 /* MagicalRecord+Test.m */; };
 		C7CF966317496EDC008D9D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF966217496EDC008D9D13 /* UIKit.framework */; };
 		C7CF966517496EDC008D9D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF966417496EDC008D9D13 /* Foundation.framework */; };
 		C7CF966717496EDC008D9D13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF966617496EDC008D9D13 /* CoreGraphics.framework */; };
@@ -160,6 +161,8 @@
 		71CB30B8177086F00011BF53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71CB30BA177086F00011BF53 /* RecipiesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipiesTest-Prefix.pch"; sourceTree = "<group>"; };
 		71CB30D9177087BB0011BF53 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = RecipiesTest/GHUnitIOS.framework; sourceTree = "<group>"; };
+		71CB311817708D490011BF53 /* MagicalRecord+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Test.h"; sourceTree = "<group>"; };
+		71CB311917708D490011BF53 /* MagicalRecord+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Test.m"; sourceTree = "<group>"; };
 		C7CF965F17496EDC008D9D13 /* Recipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF966217496EDC008D9D13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C7CF966417496EDC008D9D13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -331,6 +334,7 @@
 		71CB30B2177086F00011BF53 /* RecipiesTest */ = {
 			isa = PBXGroup;
 			children = (
+				71CB311717708D390011BF53 /* Helpers */,
 				71CB30B3177086F00011BF53 /* Supporting Files */,
 			);
 			path = RecipiesTest;
@@ -345,6 +349,15 @@
 				71CB30BA177086F00011BF53 /* RecipiesTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71CB311717708D390011BF53 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				71CB311817708D490011BF53 /* MagicalRecord+Test.h */,
+				71CB311917708D490011BF53 /* MagicalRecord+Test.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		C7CF964D174966C4008D9D13 = {
@@ -823,6 +836,7 @@
 				71CB310A177089E90011BF53 /* MagicalRecord+Options.m in Sources */,
 				71CB30F0177089D10011BF53 /* Ingredient.m in Sources */,
 				71CB30ED177089CA0011BF53 /* UnitConverterTableViewController.m in Sources */,
+				71CB311A17708D490011BF53 /* MagicalRecord+Test.m in Sources */,
 				71CB30FF177089E00011BF53 /* NSManagedObject+MagicalRequests.m in Sources */,
 				71CB30EA177089CA0011BF53 /* TemperatureCell.m in Sources */,
 				71CB30EB177089CA0011BF53 /* TemperatureConverterViewController.m in Sources */,
