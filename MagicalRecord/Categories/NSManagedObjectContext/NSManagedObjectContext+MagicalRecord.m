@@ -181,6 +181,7 @@ static NSString * const kMagicalRecordNSManagedObjectContextWorkingName = @"kNSM
     NSManagedObjectContext *context = [self MR_contextWithoutParent];
     [context setParentContext:parentContext];
     [context MR_obtainPermanentIDsBeforeSaving];
+    [context MR_observeContext:parentContext];
     return context;
 }
 
